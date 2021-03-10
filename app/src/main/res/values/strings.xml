@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">DCC Mause</string>
+    <string name="bt_searching">Searching...</string>
+    <string name="bt_not_found">Device not found</string>
+    <string name="bt_connecting">Connecting...</string>
+    <string name="bt_connected">Device connected</string>
+    <string name="bt_disconnected">Device disconnected</string>
+    <string name="bt_service_discovered">Service discovered</string>
+    <string name="bt_service_founded">Service founded</string>
+    <string name="bt_not_bonded">Device not bonded</string>
+    <string name="bt_adaptor_error">bluetooth adaptor error</string>
+
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="invertedState">Inverted</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="image">Image</string>
+    <string name="loco">LOCO</string>
+    <string name="locoList">LOCO List</string>
+    <string name="CVList">CV List</string>
+    <string name="decoderList">Decoder List</string>
+    <string name="CVEditor">CVEditor</string>
+    <string name="locoEditor">LOCO Editor</string>
+    <string name="accessory">Accessory</string>
+    <string name="newAccessory">New Accessory</string>
+    <string name="function">Function</string>
+    <string name="enabled">enabled</string>
+    <string name="ExtControl">The locomotive has been operated from external device</string>
+    <string name="Warning">Warning</string>
+    <string name="imageSource">Image source</string>
+    <string name="fromCamera">From Camera</string>
+    <string name="fromGallery">From Gallery</string>string>
+
+
+    <string name="CVManualChangeBtn">Manual Change CV</string>
+
+    <string name="delete">DELETE</string>
+    <string name="apply">APPLY</string>
+    <string name="change">CHANGE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="create">CREATE</string>
+
+
+    <string name="CVAddress">CV Address</string>
+    <string name="CVValue">CV Value</string>
+    <string name="CVWrite">WRITE</string>
+    <string name="CVRead">READ</string>
+    <string name="CVMinValue">Min value</string>
+    <string name="CVMaxValue">Max value</string>
+    <string name="CVDflValue">default</string>
+    <string name="CVNewValue">new value</string>
+    <string name="CVValueError">Wrong CV value</string>
+    <string name="CVReadError">Unable to read CV</string>
+
+    <string name="exit">Exit</string>
+    <string name="exit_question">Are you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string-array name="AccType">
+        <item>Turnout</item>
+        <item>Lamp</item>
+        <item>Signal</item>
+        <item>Sound</item>
+    </string-array>
+
+    <string-array name="FuncType">
+        <item>Unknown</item>
+        <item>Lamp</item>
+        <item>Engine</item>
+        <item>Sound</item>
+        <item>Horn</item>
+        <item>Hook</item>
+    </string-array>
+
+</resources>

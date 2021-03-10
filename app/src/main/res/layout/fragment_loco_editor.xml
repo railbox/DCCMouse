@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dccmause.dccmause.LocoEditorFragment">
+
+
+    <ImageView
+        android:id="@+id/EditorLocoImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/loco_add"
+        android:contentDescription="@string/image"/>
+
+    <EditText
+        android:id="@+id/EditorLocoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/EditorLocoImage"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/EditorLocoAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditorLocoName"
+        android:layout_toEndOf="@+id/EditorLocoImage"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="number" />
+
+    <ListView
+        android:id="@+id/EditorFunctionsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/EditorLocoImage" />
+
+    <Button
+        android:id="@+id/EditorDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditorLocoAddress"
+        android:layout_toEndOf="@+id/EditorLocoImage"
+        android:text="@string/delete" />
+
+    <Button
+        android:id="@+id/EditorApply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/EditorLocoAddress"
+        android:text="@string/apply" />
+
+</RelativeLayout>

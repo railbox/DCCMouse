@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_loco"
+        android:icon="@drawable/tab_loco"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:title=""
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+    <item
+        android:id="@+id/action_cv"
+        android:icon="@drawable/tab_cv"
+        android:orderInCategory="101"
+        android:title=""
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+    <item
+        android:id="@+id/action_turnout"
+        android:icon="@drawable/tab_turnout"
+        android:orderInCategory="102"
+        android:title=""
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+    <item
+        android:id="@+id/action_stop"
+        android:icon="@drawable/tab_stop"
+        android:orderInCategory="103"
+        android:title=""
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+    <item
+        android:id="@+id/action_connect"
+        android:orderInCategory="102"
+        android:title="@string/connect"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_disconnect"
+        android:orderInCategory="102"
+        android:title="@string/disconnect"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentEnd="false"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/AccItemImg"
+        android:layout_width="@dimen/accItemSize"
+        android:layout_height="@dimen/accItemSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/image">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/AccItemState"
+        android:layout_width="@dimen/accItemSize"
+        android:layout_height="@dimen/accItemSize"
+        android:layout_gravity="end"
+        android:gravity="end|center_vertical"
+        android:contentDescription="@string/image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/AccItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/AccItemImg"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/AccItemImg"
+        android:layout_toStartOf="@+id/AccItemState"
+        android:gravity="center_vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/AccItemAddress"
+        android:layout_width="@dimen/accItemSize"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/AccItemState"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/AccItemState"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</RelativeLayout>
